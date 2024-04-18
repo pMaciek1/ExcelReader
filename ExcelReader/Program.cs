@@ -70,6 +70,7 @@ namespace ExcelReader
                 }
             }
             Console.WriteLine("Highest Score: " + highScore + " - " + highScoreName);
+            Console.WriteLine("Press any key to close the app...");
             Console.ReadKey();
         }
     }
